@@ -1,0 +1,11 @@
+# Video final — di-render lokal, tidak di-commit (besar & regeneratif)
+out/
+*.mp4
+*.mov
+
+# Dependensi
+node_modules/
+
+# Sistem
+.DS_Store
+*.log

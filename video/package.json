@@ -1,0 +1,25 @@
+{
+  "name": "haslab-brand-ads",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Hyperframe × Remotion — portrait branding ads for ForgeADE, KendaliAI, RakitKode, PanduJev by Lutfi Ikbal Majid",
+  "scripts": {
+    "studio": "remotion studio",
+    "render:forgeade": "remotion render src/index.ts ForgeADE ../out/ForgeADE.mp4",
+    "render:kendaliai": "remotion render src/index.ts KendaliAI ../out/KendaliAI.mp4",
+    "render:rakitkode": "remotion render src/index.ts RakitKode ../out/RakitKode.mp4",
+    "render:pandujev": "remotion render src/index.ts PanduJev ../out/PanduJev.mp4",
+    "render:all": "remotion render src/index.ts ForgeADE ../out/ForgeADE.mp4 && remotion render src/index.ts KendaliAI ../out/KendaliAI.mp4 && remotion render src/index.ts RakitKode ../out/RakitKode.mp4 && remotion render src/index.ts PanduJev ../out/PanduJev.mp4",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "typescript": "^5.6.0"
+  }
+}
